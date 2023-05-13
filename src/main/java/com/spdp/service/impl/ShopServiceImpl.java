@@ -1,14 +1,14 @@
-package com.hmdp.service.impl;
+package com.spdp.service.impl;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Shop;
-import com.hmdp.mapper.ShopMapper;
-import com.hmdp.service.IShopService;
-import com.hmdp.utils.CacheClient;
-import com.hmdp.utils.SystemConstants;
+import com.spdp.dto.Result;
+import com.spdp.entity.Shop;
+import com.spdp.mapper.ShopMapper;
+import com.spdp.service.IShopService;
+import com.spdp.utils.CacheClient;
+import com.spdp.utils.SystemConstants;
 import org.springframework.data.geo.Distance;
 import org.springframework.data.geo.GeoResult;
 import org.springframework.data.geo.GeoResults;
@@ -22,15 +22,12 @@ import javax.annotation.Resource;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-import static com.hmdp.utils.RedisConstants.*;
+import static com.spdp.utils.RedisConstants.*;
 
 /**
  * <p>
  *  服务实现类
  * </p>
- *
- * @author 虎哥
- * @since 2021-12-22
  */
 @Service
 public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IShopService {

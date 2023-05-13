@@ -1,14 +1,14 @@
-package com.hmdp.service.impl;
+package com.spdp.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.VoucherOrder;
-import com.hmdp.mapper.VoucherOrderMapper;
-import com.hmdp.service.ISeckillVoucherService;
-import com.hmdp.service.IVoucherOrderService;
-import com.hmdp.utils.RedisIdWorker;
-import com.hmdp.utils.UserHolder;
+import com.spdp.dto.Result;
+import com.spdp.entity.VoucherOrder;
+import com.spdp.mapper.VoucherOrderMapper;
+import com.spdp.service.ISeckillVoucherService;
+import com.spdp.service.IVoucherOrderService;
+import com.spdp.utils.RedisIdWorker;
+import com.spdp.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
@@ -32,8 +32,6 @@ import java.util.concurrent.Executors;
  * 服务实现类
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-22
  */
 @Slf4j
 @Service

@@ -1,12 +1,12 @@
-package com.hmdp.controller;
+package com.spdp.controller;
 
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Shop;
-import com.hmdp.service.IShopService;
-import com.hmdp.utils.SystemConstants;
+import com.spdp.dto.Result;
+import com.spdp.entity.Shop;
+import com.spdp.service.IShopService;
+import com.spdp.utils.SystemConstants;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -16,7 +16,6 @@ import javax.annotation.Resource;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
  */
 @RestController
 @RequestMapping("/shop")

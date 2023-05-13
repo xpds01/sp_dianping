@@ -1,15 +1,11 @@
-package com.hmdp.service;
+package com.spdp.service;
 
-import com.hmdp.entity.SeckillVoucher;
+import com.spdp.entity.SeckillVoucher;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
- * <p>
- * 秒杀优惠券表，与优惠券是一对一关系 服务类
- * </p>
  *
- * @author 虎哥
- * @since 2022-01-04
+ * 秒杀优惠券表，与优惠券是一对一关系 服务类
  */
 public interface ISeckillVoucherService extends IService<SeckillVoucher> {
 

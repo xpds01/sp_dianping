@@ -1,13 +1,13 @@
-package com.hmdp.controller;
+package com.spdp.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hmdp.dto.Result;
-import com.hmdp.dto.UserDTO;
-import com.hmdp.entity.Blog;
-import com.hmdp.service.IBlogService;
-import com.hmdp.utils.SystemConstants;
-import com.hmdp.utils.UserHolder;
+import com.spdp.dto.Result;
+import com.spdp.dto.UserDTO;
+import com.spdp.entity.Blog;
+import com.spdp.service.IBlogService;
+import com.spdp.utils.SystemConstants;
+import com.spdp.utils.UserHolder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -18,7 +18,6 @@ import java.util.List;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
  */
 @RestController
 @RequestMapping("/blog")

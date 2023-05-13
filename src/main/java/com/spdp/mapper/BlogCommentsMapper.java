@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.spdp.mapper;
 
-import com.hmdp.entity.BlogComments;
+import com.spdp.entity.BlogComments;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

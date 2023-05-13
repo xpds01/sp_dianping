@@ -1,6 +1,6 @@
-package com.hmdp.service;
+package com.spdp.service;
 
-import com.hmdp.entity.ShopType;
+import com.spdp.entity.ShopType;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,8 +8,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-22
  */
 public interface IShopTypeService extends IService<ShopType> {
 

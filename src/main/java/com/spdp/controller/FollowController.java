@@ -1,8 +1,8 @@
-package com.hmdp.controller;
+package com.spdp.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.service.IFollowService;
+import com.spdp.dto.Result;
+import com.spdp.service.IFollowService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -12,7 +12,6 @@ import javax.annotation.Resource;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
  */
 @RestController
 @RequestMapping("/follow")

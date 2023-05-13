@@ -1,4 +1,4 @@
-package com.hmdp.config;
+package com.spdp.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

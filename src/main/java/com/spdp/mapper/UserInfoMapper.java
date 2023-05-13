@@ -1,6 +1,6 @@
-package com.hmdp.mapper;
+package com.spdp.mapper;
 
-import com.hmdp.entity.UserInfo;
+import com.spdp.entity.UserInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

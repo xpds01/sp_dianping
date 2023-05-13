@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.spdp.utils;
 
 public interface ILock {
 

@@ -1,9 +1,9 @@
-package com.hmdp.controller;
+package com.spdp.controller;
 
 
-import com.hmdp.dto.Result;
-import com.hmdp.entity.Voucher;
-import com.hmdp.service.IVoucherService;
+import com.spdp.dto.Result;
+import com.spdp.entity.Voucher;
+import com.spdp.service.IVoucherService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -13,7 +13,6 @@ import javax.annotation.Resource;
  *  前端控制器
  * </p>
  *
- * @author 虎哥
  */
 @RestController
 @RequestMapping("/voucher")

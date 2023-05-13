@@ -1,8 +1,8 @@
-package com.hmdp.service.impl;
+package com.spdp.service.impl;
 
-import com.hmdp.entity.UserInfo;
-import com.hmdp.mapper.UserInfoMapper;
-import com.hmdp.service.IUserInfoService;
+import com.spdp.entity.UserInfo;
+import com.spdp.mapper.UserInfoMapper;
+import com.spdp.service.IUserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -11,8 +11,6 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-24
  */
 @Service
 public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> implements IUserInfoService {

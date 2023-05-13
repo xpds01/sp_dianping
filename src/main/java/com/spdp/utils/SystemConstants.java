@@ -1,4 +1,4 @@
-package com.hmdp.utils;
+package com.spdp.utils;
 
 public class SystemConstants {
     public static final String IMAGE_UPLOAD_DIR = "E:\\java\\nginx-1.18.0\\html\\hmdp\\imgs\\";
